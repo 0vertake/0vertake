@@ -61,6 +61,10 @@ You can check out my pinned repositories on my profile to see my recent work ğŸš
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0vertake&layout=compact&theme=github_dark&hide_border=true" width="48%"/>
 </p>
 
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="95%">
+</p>
+
 ---
 
 ## ğŸ“« Connect With Me  
