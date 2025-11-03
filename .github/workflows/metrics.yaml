@@ -17,14 +17,14 @@ jobs:
 
           # --- Base config ---
           user: 0vertake
-          commits_authoring: .user.login
+          commits_authoring: milosjovanovic519@gmail.com, 0vertake
           repositories_affiliations: owner, collaborator, organization_member
           repositories_forks: no
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Belgrade
           config_display: large
-
+          
           # --- Plugins ---
           ## Top languages — indepth (only your commits)
           plugin_languages: yes
