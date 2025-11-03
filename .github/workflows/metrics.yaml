@@ -17,6 +17,7 @@ jobs:
 
           # --- Base config ---
           user: 0vertake
+          commits_authoring: .user.login
           repositories_affiliations: owner, collaborator, organization_member, contributed
           template: classic
           base: header, activity, community, repositories, metadata
