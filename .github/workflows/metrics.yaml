@@ -36,3 +36,8 @@ jobs:
           plugin_stars: yes           # shows starred repos
           plugin_achievements: yes    # small badges for contributions
           plugin_isocalendar: yes     # contribution calendar
+
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_errors_fatal: no
+
