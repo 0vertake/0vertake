@@ -1,8 +1,11 @@
 name: Generate GitHub Metrics
 
+permissions:
+  contents: write
+
 on:
-  schedule: [{cron: "0 0 * * *"}]   # runs every day at midnight UTC
-  workflow_dispatch:                # allows you to trigger it manually
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
 
 jobs:
   github-metrics:
