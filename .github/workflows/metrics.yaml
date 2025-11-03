@@ -4,7 +4,7 @@ permissions:
   contents: write
 
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 0 * * *"}]  # run daily
   workflow_dispatch:
 
 jobs:
@@ -26,20 +26,28 @@ jobs:
           config_display: large
 
           # --- Plugins ---
+          ## Top languages — indepth (only your commits)
           plugin_languages: yes
-          plugin_languages_indepth: no          # ← switched back to normal repo-level scan
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_other: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_analysis_timeout: 45
+          plugin_languages_analysis_timeout_repositories: 20
           plugin_languages_categories: programming
           plugin_languages_recent_load: 300
           plugin_languages_recent_days: 365
+          plugin_languages_aliases: '{"hpp":"cpp","hxx":"cpp","cc":"cpp","cxx":"cpp"}'  # ensures C++ headers count as C++
 
-          plugin_followup: yes
-          plugin_stars: yes
+          ## Contributions calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          plugin_achievements: no               # temporarily disable to remove red error
+          ## Follow-up and stars summary
+          plugin_followup: yes
+          plugin_stars: yes
+
+          ## Achievements — optional, may error (disabled here for clean output)
+          plugin_achievements: no
+
+          ## Ignore minor plugin errors
           plugins_errors_fatal: no
