@@ -9,13 +9,7 @@
 
 I'm a dedicated software engineering student currently starting my 5th semester, building a strong foundation in computer science and software development.  
 I enjoy solving complex problems, designing efficient solutions, and constantly learning new technologies that push my understanding of how systems work.  
-
-📚 I’ve successfully completed courses covering:
-- **Core CS**: Data Structures & Algorithms, Advanced DSA, Operating Systems, Discrete Mathematics  
-- **Programming & Design**: OOP (1 & 2), Parallel Programming, Software Modeling, Intro to Software Engineering  
-- **Applied Computing**: Databases, Organisation of Data, Data Manipulation, Nonlinear Programming & Evolutionary Algorithms  
-- **Math Foundations**: Algebra, Calculus, Numeric Systems & Algorithms  
-
+ 
 ---
 
 ## 💻 Tech Stack  
@@ -34,16 +28,6 @@ I enjoy solving complex problems, designing efficient solutions, and constantly 
 - Data Analysis & Processing  
 - Version Control (Git & GitHub)  
 - Problem Solving & Debugging  
-
----
-
-## 🧭 What I'm Focused On  
-
-🌱 Expanding my knowledge across multiple areas of software engineering:  
-- Backend and systems development using **C++**, **Go**, and **Python**  
-- **Parallel and distributed programming** for performance optimization  
-- **Data engineering & database design** for efficient data management  
-- Exploring **AI, machine learning**, and **evolutionary algorithms**  
 
 ---
 
