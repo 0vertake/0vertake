@@ -38,14 +38,6 @@ You can check out my pinned repositories on my profile to see my recent work �
 
 ---
 
-## 📈 GitHub Stats  
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="95%">
-</p>
-
----
-
 ## 📫 Connect With Me  
 
 <p align="left">
