@@ -7,7 +7,7 @@
 
 ## 🧩 About Me  
 
-I'm a dedicated software engineering student currently starting my 5th semester, building a strong foundation in computer science and software development.  
+I'm a dedicated third year software engineering student, building a strong foundation in computer science and software development.  
 I enjoy solving complex problems, designing efficient solutions, and constantly learning new technologies that push my understanding of how systems work.  
  
 ---
