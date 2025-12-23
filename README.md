@@ -1,53 +1,59 @@
 ```
-        ███╗   ███╗     milos@github
-        ████╗ ████║     ──────────────
-        ██╔████╔██║     OS: Student @ Faculty of Technical Sciences, Novi Sad
-        ██║╚██╔╝██║     Kernel: Software Engineering (3rd year)
-        ██║ ╚═╝ ██║     Uptime: 3 years in CS
-        ╚═╝     ╚═╝     Shell: Go, C++, Python, Java
-                        PID 1: building full-stack uber-style taxi app
+ ███╗   ███╗    milos@github
+ ████╗ ████║    ──────────────────────────────────────
+ ██╔████╔██║    OS      Student @ FTN, Novi Sad
+ ██║╚██╔╝██║    Kernel  Software Engineering (3rd year)
+ ██║ ╚═╝ ██║    Shell   Go · C++ · Python · Java
+ ╚═╝     ╚═╝    WIP     uber-style taxi app (full-stack)
 ```
 
+---
+
+### `~/projects`
+
+[**HundDB**](https://github.com/mrsladoje/HundDB) — LSM-tree key-value storage engine `Go`
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ $ ls -la ~/projects                                                          │
-└──────────────────────────────────────────────────────────────────────────────┘
+WAL, memtables (BTree|SkipList|HashMap), SSTables, Bloom filters, Merkle trees
+├─ my work: WAL, bloom filter, count-min sketch, skip list, token bucket, frontend
+└─ team: @Vukotije @mrsladoje @nikolastevanovicc
+```
 
-drwxr-xr-x  HundDB/                     Go         LSM-tree key-value storage engine
-                                                   WAL, memtables (BTree|SkipList|HashMap), SSTables
-                                                   Bloom filters, Merkle trees, compaction strategies
-                                                   ├── my contributions:
-                                                   │   write-ahead log, bloom filter, count-min sketch,
-                                                   │   skip list, token bucket, partial frontend
-                                                   └── team: @Vukotije @mrsladoje @nikolastevanovicc
+[**PDFScope**](https://github.com/0vertake/PDFScope) — PDF search engine `Python`
+```
+trie indexing O(m), shunting-yard boolean parser, PageRank, Levenshtein autocomplete
+```
 
-drwxr-xr-x  PDFScope/                   Python     search engine for PDF documents
-                                                   boolean/phrase/classic search, trie indexing O(m)
-                                                   shunting-yard parser, PageRank ranking, autocomplete
+[**CheckersAI**](https://github.com/0vertake/CheckersAI) — game AI `Python`
+```
+minimax + alpha-beta, depth 4-6, board caching, Pygame
+```
 
-drwxr-xr-x  CheckersAI/                 Python     minimax + alpha-beta pruning, depth 4-6
-                                                   eval: material, kings, advancement, central control
-                                                   board state caching, Pygame UI
+[**ShelfScan**](https://github.com/0vertake/ShelfScan) — parallel web scraper `C++`
+```
+Intel TBB + libcurl + Gumbo HTML parser
+```
 
-drwxr-xr-x  ShelfScan/                  C++        high-performance parallel web scraper
-                                                   Intel TBB + libcurl + Gumbo HTML parser
+[**MiniKotlinPlayground**](https://github.com/0vertake/MiniKotlinPlayground) — script runner `Kotlin`
+```
+Compose Desktop, syntax highlighting, clickable errors
+```
 
-drwxr-xr-x  MiniKotlinPlayground/       Kotlin     Compose Desktop script runner
-                                                   editor, output pane, clickable errors, syntax highlighting
+[**MazeGame**](https://github.com/0vertake/MazeGame) — console adventure `C++`
+```
+procedural generation, AI Minotaur
+```
 
-drwxr-xr-x  MazeGame/                   C++        console maze adventure
-                                                   procedural generation, power-ups, AI Minotaur
+[**Hotelify**](https://github.com/0vertake/Hotelify) — hotel management `Java`
+```
+Swing UI, reservations, services, reporting
+```
 
-drwxr-xr-x  Hotelify/                   Java       Swing hotel management system
-                                                   reservations, room ops, services, reporting
+[**KnapsackProblem**](https://github.com/0vertake/KnapsackProblem) — optimization `Python`
+```
+genetic algorithm: tournament selection, crossover, mutation, elitism
+```
 
-drwxr-xr-x  KnapsackProblem/            Python     genetic algorithm for 0/1 knapsack
-                                                   tournament selection, crossover, mutation, elitism
-
--rw-r--r--  LLMPrivacyPreserving/       Python     privacy-utility tradeoff analysis
-                                                   low vs high obfuscation when prompting LLMs
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ $ exit                                                                       │
-└──────────────────────────────────────────────────────────────────────────────┘
+[**LLMPrivacyPreserving**](https://github.com/0vertake/LLMPrivacyPreserving) — research `Python`
+```
+privacy-utility tradeoff analysis for LLM prompting
 ```
