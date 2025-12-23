@@ -20,10 +20,7 @@ drwxr-xr-x  HundDB/                     Go         LSM-tree key-value storage en
                                                    │   write-ahead log, bloom filter, count-min sketch,
                                                    │   skip list, token bucket, partial frontend
                                                    └── team: @Vukotije @mrsladoje @nikolastevanovicc
-```
-<a href="https://www.youtube.com/watch?v=gkG7mmT554E"><img src="https://img.shields.io/badge/▶_HUND_DB_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 
-```
 drwxr-xr-x  PDFScope/                   Python     search engine for PDF documents
                                                    boolean/phrase/classic search, trie indexing O(m)
                                                    shunting-yard parser, PageRank ranking, autocomplete
