@@ -7,10 +7,6 @@
         ╚═╝     ╚═╝     Shell: Go, C++, Python, Java
                         PID 1: building full-stack uber-style taxi app
 ```
-
-<a href="https://www.linkedin.com/in/milos-jovanovic-se/"><img src="https://img.shields.io/badge/-milos--jovanovic--se-0A66C2?style=flat&logo=linkedin&logoColor=white" height="20"/></a>
-
-```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ $ cat /proc/projects/featured                                                │
 └──────────────────────────────────────────────────────────────────────────────┘
