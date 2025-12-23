@@ -46,9 +46,7 @@ drwxr-xr-x  KnapsackProblem/            Python     genetic algorithm for 0/1 kna
 
 -rw-r--r--  LLMPrivacyPreserving/       Python     privacy-utility tradeoff analysis
                                                    low vs high obfuscation when prompting LLMs
-```
 
-```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ $ exit                                                                       │
 └──────────────────────────────────────────────────────────────────────────────┘
